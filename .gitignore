@@ -17,9 +17,16 @@
 !/log/.keep
 !/tmp/.keep
 
+.env
+.DS_Store
+coverage
+
 /node_modules
 /yarn-error.log
 
 .byebug_history
 
 /config/database.yml
+Capfile
+/config/deploy.rb
+/config/deploy/*
