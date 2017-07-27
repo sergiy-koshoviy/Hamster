@@ -1,4 +1,6 @@
 # Hamster
+[![Build Status](https://travis-ci.org/sergiy-koshoviy/Hamster.svg?branch=master)](https://travis-ci.org/sergiy-koshoviy/Hamster)
+
 
 This is a audit system for your busines.
 
