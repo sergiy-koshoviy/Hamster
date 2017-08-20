@@ -16,6 +16,8 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
+gem 'execjs', '~> 2.7.0'
+gem 'therubyracer', '~> 0.12.3'
 
 # ===== CONFIG =====
 gem 'dotenv-rails', '~> 2.2.1'
@@ -36,12 +38,11 @@ group :development do
   gem 'capistrano', '~> 3.6'
   gem 'capistrano-rails', '~> 1.3'
   gem 'capistrano-rvm'
+  gem 'capistrano-bundler'
+  gem 'capistrano-passenger', '~> 0.2.0'
 end
 
 group :test do
   gem 'codecov', require: false
   gem 'simplecov', require: false
 end
-
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
