@@ -18,6 +18,9 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'execjs', '~> 2.7.0'
 gem 'therubyracer', '~> 0.12.3'
+gem 'slim-rails', '~> 3.1.2'
+gem 'twitter-bootstrap-rails'
+gem 'therubyrhino'
 
 # ===== CONFIG =====
 gem 'dotenv-rails', '~> 2.2.1'
